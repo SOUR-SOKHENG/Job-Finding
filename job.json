@@ -1,0 +1,928 @@
+ [
+    {
+      "id": 1,
+      "company": {
+        "name": "ABA Bank",
+        "logo": "/images/logos/aba-bank.png"
+      },
+      "job_title": "Frontend Developer",
+      "job_type": "Full-time",
+      "salary": {
+        "min": 1200,
+        "max": 2000,
+        "currency": "USD",
+        "is_negotiable": false
+      },
+      "location": {
+        "province": "Phnom Penh",
+        "district": "Chamkarmon"
+      },
+      "description": "We are looking for a skilled Frontend Developer to join our dynamic digital team. You will be responsible for building and maintaining the user-facing side of our internet banking platform.",
+      "requirements": [
+        "2+ years of experience with React.js or Vue.js",
+        "Proficient in JavaScript, HTML5, and CSS3",
+        "Experience with state management libraries",
+        "Familiarity with RESTful APIs"
+      ],
+      "offers": [
+        "Competitive Salary & Bonus",
+        "Health & Accident Insurance",
+        "Training & Career Development",
+        "Subsidized Lunch"
+      ],
+      "posted_date": "2024-01-15",
+      "application_deadline": "2024-02-20",
+      "vacancy": 2,
+      "experience_level": "Mid-Level",
+      "category": "Technology / IT"
+    },
+    {
+      "id": 2,
+      "company": {
+        "name": "Lucky Market",
+        "logo": "/images/logos/lucky-market.png"
+      },
+      "job_title": "Store Supervisor",
+      "job_type": "Full-time",
+      "salary": {
+        "min": 600,
+        "max": 800,
+        "currency": "USD",
+        "is_negotiable": true
+      },
+      "location": {
+        "province": "Siem Reap",
+        "district": "Slor Kram"
+      },
+      "description": "Lucky Market is seeking a motivated Store Supervisor to oversee daily operations, manage staff, and ensure excellent customer service.",
+      "requirements": [
+        "Proven experience as a retail supervisor",
+        "Good communication and leadership skills",
+        "Basic English language skills",
+        "Ability to work on weekends"
+      ],
+      "offers": [
+        "Performance Bonus",
+        "Uniform Provided",
+        "Staff Discount",
+        "Opportunity for Promotion"
+      ],
+      "posted_date": "2024-01-14",
+      "application_deadline": "2024-02-15",
+      "vacancy": 1,
+      "experience_level": "Entry-Level",
+      "category": "Retail / Sales"
+    },
+    {
+      "id": 3,
+      "company": {
+        "name": "Sabay Digital Corporation",
+        "logo": "/images/logos/sabay-digital.png"
+      },
+      "job_title": "Content Writer (Technology)",
+      "job_type": "Part-time",
+      "salary": {
+        "min": 400,
+        "max": 600,
+        "currency": "USD",
+        "is_negotiable": false
+      },
+      "location": {
+        "province": "Phnom Penh",
+        "district": "7 Makara"
+      },
+      "description": "Produce engaging articles, reviews, and news pieces about the latest technology trends for our Khmer audience.",
+      "requirements": [
+        "Excellent writing skills in Khmer",
+        "Strong interest in technology",
+        "Ability to meet deadlines",
+        "Experience with WordPress is a plus"
+      ],
+      "offers": [
+        "Flexible Working Hours",
+        "Creative Work Environment",
+        "Byline on Published Articles",
+        "Skill Development Workshops"
+      ],
+      "posted_date": "2024-01-16",
+      "application_deadline": "2024-02-10",
+      "vacancy": 1,
+      "experience_level": "Entry-Level",
+      "category": "Media / Content Creation"
+    },
+    {
+      "id": 4,
+      "company": {
+        "name": "AEON Mall Cambodia",
+        "logo": "/images/logos/aeon-mall.png"
+      },
+      "job_title": "Digital Marketing Specialist",
+      "job_type": "Full-time",
+      "salary": {
+        "min": 1000,
+        "max": 1500,
+        "currency": "USD",
+        "is_negotiable": false
+      },
+      "location": {
+        "province": "Phnom Penh",
+        "district": "Sen Sok"
+      },
+      "description": "Develop and execute digital marketing campaigns, manage social media channels, and analyze performance data.",
+      "requirements": [
+        "2+ years in digital marketing",
+        "Experience with Facebook Ads, Google Ads",
+        "Proficiency in Google Analytics",
+        "Bachelor's degree in Marketing"
+      ],
+      "offers": [
+        "Attractive Salary Package",
+        "Medical & Dental Insurance",
+        "Annual Leave",
+        "Shopping Vouchers"
+      ],
+      "posted_date": "2024-01-13",
+      "application_deadline": "2024-02-25",
+      "vacancy": 1,
+      "experience_level": "Mid-Level",
+      "category": "Marketing / Advertising"
+    },
+    {
+      "id": 5,
+      "company": {
+        "name": "Sihanoukville Port Authority",
+        "logo": "/images/logos/sihanoukville-port.png"
+      },
+      "job_title": "Logistics Coordinator",
+      "job_type": "Full-time",
+      "salary": {
+        "min": 800,
+        "max": 1100,
+        "currency": "USD",
+        "is_negotiable": true
+      },
+      "location": {
+        "province": "Preah Sihanouk",
+        "district": "Preah Sihanouk"
+      },
+      "description": "Manage and track shipment of goods, coordinate with shipping lines and customers, ensure smooth port operations.",
+      "requirements": [
+        "Experience in logistics or supply chain",
+        "Strong organizational skills",
+        "Good command of English",
+        "Knowledge of import/export procedures"
+      ],
+      "offers": [
+        "Government Benefits",
+        "Stable Career Path",
+        "Overtime Pay",
+        "Housing Allowance"
+      ],
+      "posted_date": "2024-01-12",
+      "application_deadline": "2024-02-28",
+      "vacancy": 1,
+      "experience_level": "Mid-Level",
+      "category": "Logistics / Supply Chain"
+    },
+    {
+      "id": 6,
+      "company": {
+        "name": "Prince Bank",
+        "logo": "/images/logos/prince-bank.png"
+      },
+      "job_title": "Mobile App Developer",
+      "job_type": "Full-time",
+      "salary": {
+        "min": 1500,
+        "max": 2500,
+        "currency": "USD",
+        "is_negotiable": false
+      },
+      "location": {
+        "province": "Phnom Penh",
+        "district": "Daun Penh"
+      },
+      "description": "Develop and maintain mobile banking applications for iOS and Android platforms.",
+      "requirements": [
+        "3+ years mobile development experience",
+        "Proficient in React Native/Flutter",
+        "Experience with REST APIs",
+        "Knowledge of mobile security"
+      ],
+      "offers": [
+        "High Salary Package",
+        "Performance Bonus",
+        "Comprehensive Insurance",
+        "Flexible Working Hours"
+      ],
+      "posted_date": "2024-01-15",
+      "application_deadline": "2024-02-18",
+      "vacancy": 2,
+      "experience_level": "Senior",
+      "category": "Technology / IT"
+    },
+    {
+      "id": 7,
+      "company": {
+        "name": "Raffles Hotel Le Royal",
+        "logo": "/images/logos/raffles-hotel.png"
+      },
+      "job_title": "Front Office Manager",
+      "job_type": "Full-time",
+      "salary": {
+        "min": 900,
+        "max": 1300,
+        "currency": "USD",
+        "is_negotiable": true
+      },
+      "location": {
+        "province": "Phnom Penh",
+        "district": "Daun Penh"
+      },
+      "description": "Oversee front desk operations, manage guest services, and ensure exceptional customer experience.",
+      "requirements": [
+        "3+ years hotel management experience",
+        "Excellent English communication",
+        "Strong leadership skills",
+        "Hospitality degree preferred"
+      ],
+      "offers": [
+        "Service Charge",
+        "Meals Provided",
+        "Accommodation Allowance",
+        "Career Growth Opportunities"
+      ],
+      "posted_date": "2024-01-14",
+      "application_deadline": "2024-02-22",
+      "vacancy": 1,
+      "experience_level": "Mid-Level",
+      "category": "Hospitality / Tourism"
+    },
+    {
+      "id": 8,
+      "company": {
+        "name": "Chip Mong Group",
+        "logo": "/images/logos/chip-mong.png"
+      },
+      "job_title": "Civil Engineer",
+      "job_type": "Full-time",
+      "salary": {
+        "min": 1100,
+        "max": 1700,
+        "currency": "USD",
+        "is_negotiable": false
+      },
+      "location": {
+        "province": "Phnom Penh",
+        "district": "7 Makara"
+      },
+      "description": "Design, plan, and oversee construction projects including residential and commercial buildings.",
+      "requirements": [
+        "Bachelor's in Civil Engineering",
+        "3+ years construction experience",
+        "AutoCAD proficiency",
+        "Project management skills"
+      ],
+      "offers": [
+        "Project Bonuses",
+        "Health Insurance",
+        "Professional Development",
+        "Company Vehicle"
+      ],
+      "posted_date": "2024-01-16",
+      "application_deadline": "2024-02-26",
+      "vacancy": 3,
+      "experience_level": "Mid-Level",
+      "category": "Engineering / Construction"
+    },
+    {
+      "id": 9,
+      "company": {
+        "name": "Emerald Hub",
+        "logo": "/images/logos/emerald-hub.png"
+      },
+      "job_title": "Data Analyst",
+      "job_type": "Full-time",
+      "salary": {
+        "min": 1000,
+        "max": 1600,
+        "currency": "USD",
+        "is_negotiable": true
+      },
+      "location": {
+        "province": "Phnom Penh",
+        "district": "Toul Kork"
+      },
+      "description": "Analyze business data, create reports, and provide insights to drive decision-making.",
+      "requirements": [
+        "SQL and Excel proficiency",
+        "Experience with data visualization tools",
+        "Statistical analysis skills",
+        "Business intelligence experience"
+      ],
+      "offers": [
+        "Remote Work Options",
+        "Learning Budget",
+        "Health Insurance",
+        "Performance Bonuses"
+      ],
+      "posted_date": "2024-01-13",
+      "application_deadline": "2024-02-19",
+      "vacancy": 2,
+      "experience_level": "Mid-Level",
+      "category": "Technology / IT"
+    },
+    {
+      "id": 10,
+      "company": {
+        "name": "Angkor Hospital for Children",
+        "logo": "/images/logos/angkor-hospital.png"
+      },
+      "job_title": "Pediatric Nurse",
+      "job_type": "Full-time",
+      "salary": {
+        "min": 700,
+        "max": 1000,
+        "currency": "USD",
+        "is_negotiable": false
+      },
+      "location": {
+        "province": "Siem Reap",
+        "district": "Siem Reap"
+      },
+      "description": "Provide quality nursing care to pediatric patients in a humanitarian hospital setting.",
+      "requirements": [
+        "Nursing degree and license",
+        "2+ years pediatric experience",
+        "English communication skills",
+        "Compassionate and dedicated"
+      ],
+      "offers": [
+        "Meaningful Work",
+        "Health Insurance",
+        "Professional Training",
+        "Housing Allowance"
+      ],
+      "posted_date": "2024-01-15",
+      "application_deadline": "2024-02-28",
+      "vacancy": 4,
+      "experience_level": "Mid-Level",
+      "category": "Healthcare / Medical"
+    },
+    {
+      "id": 11,
+      "company": {
+        "name": "Pizza Company",
+        "logo": "/images/logos/pizza-company.png"
+      },
+      "job_title": "Restaurant Manager",
+      "job_type": "Full-time",
+      "salary": {
+        "min": 500,
+        "max": 700,
+        "currency": "USD",
+        "is_negotiable": true
+      },
+      "location": {
+        "province": "Battambang",
+        "district": "Battambang"
+      },
+      "description": "Manage daily restaurant operations, staff, inventory, and customer service.",
+      "requirements": [
+        "2+ years F&B management",
+        "Customer service skills",
+        "Inventory management",
+        "Team leadership"
+      ],
+      "offers": [
+        "Performance Bonus",
+        "Meals on Duty",
+        "Career Progression",
+        "Uniform Provided"
+      ],
+      "posted_date": "2024-01-14",
+      "application_deadline": "2024-02-20",
+      "vacancy": 1,
+      "experience_level": "Mid-Level",
+      "category": "Food & Beverage"
+    },
+    {
+      "id": 12,
+      "company": {
+        "name": "Smart Axiata",
+        "logo": "/images/logos/smart-axiata.png"
+      },
+      "job_title": "Network Engineer",
+      "job_type": "Full-time",
+      "salary": {
+        "min": 1300,
+        "max": 2000,
+        "currency": "USD",
+        "is_negotiable": false
+      },
+      "location": {
+        "province": "Phnom Penh",
+        "district": "7 Makara"
+      },
+      "description": "Design, implement and maintain telecommunications network infrastructure.",
+      "requirements": [
+        "CCNA/CCNP certification",
+        "3+ years network engineering",
+        "Knowledge of 4G/5G technologies",
+        "Troubleshooting skills"
+      ],
+      "offers": [
+        "Competitive Salary",
+        "Family Health Insurance",
+        "Training Opportunities",
+        "Company Phone"
+      ],
+      "posted_date": "2024-01-16",
+      "application_deadline": "2024-02-25",
+      "vacancy": 2,
+      "experience_level": "Senior",
+      "category": "Telecommunications"
+    },
+    {
+      "id": 13,
+      "company": {
+        "name": "Zando Cambodia",
+        "logo": "/images/logos/zando.png"
+      },
+      "job_title": "E-commerce Specialist",
+      "job_type": "Full-time",
+      "salary": {
+        "min": 800,
+        "max": 1200,
+        "currency": "USD",
+        "is_negotiable": true
+      },
+      "location": {
+        "province": "Phnom Penh",
+        "district": "Chamkarmon"
+      },
+      "description": "Manage online store operations, product listings, and digital marketing campaigns.",
+      "requirements": [
+        "E-commerce platform experience",
+        "Digital marketing knowledge",
+        "Analytical skills",
+        "Customer service orientation"
+      ],
+      "offers": [
+        "Employee Discount",
+        "Performance Bonus",
+        "Flexible Schedule",
+        "Health Insurance"
+      ],
+      "posted_date": "2024-01-13",
+      "application_deadline": "2024-02-18",
+      "vacancy": 1,
+      "experience_level": "Mid-Level",
+      "category": "E-commerce / Retail"
+    },
+    {
+      "id": 14,
+      "company": {
+        "name": "ANZ Royal Bank",
+        "logo": "/images/logos/anz-royal.png"
+      },
+      "job_title": "Relationship Manager",
+      "job_type": "Full-time",
+      "salary": {
+        "min": 1400,
+        "max": 2200,
+        "currency": "USD",
+        "is_negotiable": false
+      },
+      "location": {
+        "province": "Phnom Penh",
+        "district": "Daun Penh"
+      },
+      "description": "Manage corporate banking relationships and develop new business opportunities.",
+      "requirements": [
+        "5+ years banking experience",
+        "Strong sales and negotiation skills",
+        "Financial analysis ability",
+        "Excellent English"
+      ],
+      "offers": [
+        "High Commission",
+        "Company Car",
+        "Comprehensive Benefits",
+        "International Exposure"
+      ],
+      "posted_date": "2024-01-15",
+      "application_deadline": "2024-02-22",
+      "vacancy": 1,
+      "experience_level": "Senior",
+      "category": "Banking / Finance"
+    },
+    {
+      "id": 15,
+      "company": {
+        "name": "Sovannaphum Life Insurance",
+        "logo": "/images/logos/sovannaphum.png"
+      },
+      "job_title": "Insurance Sales Agent",
+      "job_type": "Part-time",
+      "salary": {
+        "min": 300,
+        "max": 800,
+        "currency": "USD",
+        "is_negotiable": true
+      },
+      "location": {
+        "province": "Kampong Cham",
+        "district": "Kampong Cham"
+      },
+      "description": "Sell life insurance products and provide financial advice to clients.",
+      "requirements": [
+        "Sales experience preferred",
+        "Good communication skills",
+        "Self-motivated",
+        "High school diploma"
+      ],
+      "offers": [
+        "High Commission",
+        "Flexible Hours",
+        "Sales Training",
+        "Career Advancement"
+      ],
+      "posted_date": "2024-01-14",
+      "application_deadline": "2024-02-16",
+      "vacancy": 5,
+      "experience_level": "Entry-Level",
+      "category": "Insurance / Sales"
+    },
+    {
+      "id": 16,
+      "company": {
+        "name": "Phnom Penh International University",
+        "logo": "/images/logos/ppiu.png"
+      },
+      "job_title": "English Teacher",
+      "job_type": "Part-time",
+      "salary": {
+        "min": 15,
+        "max": 25,
+        "currency": "USD",
+        "is_negotiable": false,
+        "note": "per hour"
+      },
+      "location": {
+        "province": "Phnom Penh",
+        "district": "Russey Keo"
+      },
+      "description": "Teach English language courses to university students.",
+      "requirements": [
+        "TESOL/CELTA certificate",
+        "Bachelor's degree",
+        "Teaching experience",
+        "Native English speaker"
+      ],
+      "offers": [
+        "Flexible Schedule",
+        "Professional Development",
+        "Campus Facilities",
+        "Long-term Contract"
+      ],
+      "posted_date": "2024-01-16",
+      "application_deadline": "2024-02-28",
+      "vacancy": 3,
+      "experience_level": "Mid-Level",
+      "category": "Education / Teaching"
+    },
+    {
+      "id": 17,
+      "company": {
+        "name": "Dara Airport Hotel",
+        "logo": "/images/logos/dara-hotel.png"
+      },
+      "job_title": "Executive Chef",
+      "job_type": "Full-time",
+      "salary": {
+        "min": 1500,
+        "max": 2500,
+        "currency": "USD",
+        "is_negotiable": true
+      },
+      "location": {
+        "province": "Phnom Penh",
+        "district": "Porsenchey"
+      },
+      "description": "Lead kitchen operations, menu development, and culinary team management.",
+      "requirements": [
+        "8+ years culinary experience",
+        "International cuisine knowledge",
+        "Kitchen management skills",
+        "Culinary degree preferred"
+      ],
+      "offers": [
+        "Accommodation",
+        "Meals Provided",
+        "Performance Bonus",
+        "International Training"
+      ],
+      "posted_date": "2024-01-13",
+      "application_deadline": "2024-02-24",
+      "vacancy": 1,
+      "experience_level": "Senior",
+      "category": "Hospitality / Food & Beverage"
+    },
+    {
+      "id": 18,
+      "company": {
+        "name": "MekongNet",
+        "logo": "/images/logos/mekongnet.png"
+      },
+      "job_title": "Customer Service Representative",
+      "job_type": "Full-time",
+      "salary": {
+        "min": 350,
+        "max": 500,
+        "currency": "USD",
+        "is_negotiable": false
+      },
+      "location": {
+        "province": "Phnom Penh",
+        "district": "Meanchey"
+      },
+      "description": "Handle customer inquiries, technical support, and service complaints.",
+      "requirements": [
+        "Good communication skills",
+        "Basic computer knowledge",
+        "Customer service experience",
+        "Khmer and English speaking"
+      ],
+      "offers": [
+        "Transportation Allowance",
+        "Phone Allowance",
+        "Health Insurance",
+        "Career Growth"
+      ],
+      "posted_date": "2024-01-15",
+      "application_deadline": "2024-02-20",
+      "vacancy": 6,
+      "experience_level": "Entry-Level",
+      "category": "Customer Service"
+    },
+    {
+      "id": 19,
+      "company": {
+        "name": "Vattanac Brewery",
+        "logo": "/images/logos/vattanac-brewery.png"
+      },
+      "job_title": "Quality Control Technician",
+      "job_type": "Full-time",
+      "salary": {
+        "min": 600,
+        "max": 900,
+        "currency": "USD",
+        "is_negotiable": false
+      },
+      "location": {
+        "province": "Kandal",
+        "district": "Ang Snuol"
+      },
+      "description": "Monitor production quality, conduct laboratory tests, ensure product standards.",
+      "requirements": [
+        "Science or engineering background",
+        "Quality control experience",
+        "Attention to detail",
+        "Laboratory skills"
+      ],
+      "offers": [
+        "Transportation Provided",
+        "Health Insurance",
+        "Production Bonus",
+        "Stable Employment"
+      ],
+      "posted_date": "2024-01-14",
+      "application_deadline": "2024-02-19",
+      "vacancy": 2,
+      "experience_level": "Entry-Level",
+      "category": "Manufacturing / Quality Control"
+    },
+    {
+      "id": 20,
+      "company": {
+        "name": "BROWN Coffee",
+        "logo": "/images/logos/brown-coffee.png"
+      },
+      "job_title": "Barista",
+      "job_type": "Part-time",
+      "salary": {
+        "min": 250,
+        "max": 400,
+        "currency": "USD",
+        "is_negotiable": true
+      },
+      "location": {
+        "province": "Phnom Penh",
+        "district": "Boeung Keng Kang"
+      },
+      "description": "Prepare coffee beverages, serve customers, maintain cafe cleanliness.",
+      "requirements": [
+        "Barista experience preferred",
+        "Customer service skills",
+        "Ability to work fast-paced",
+        "Weekend availability"
+      ],
+      "offers": [
+        "Tips",
+        "Coffee Training",
+        "Employee Discount",
+        "Flexible Schedule"
+      ],
+      "posted_date": "2024-01-16",
+      "application_deadline": "2024-02-15",
+      "vacancy": 4,
+      "experience_level": "Entry-Level",
+      "category": "Food & Beverage"
+    },
+    {
+      "id": 21,
+      "company": {
+        "name": "OCIC Group",
+        "logo": "/images/logos/ocic.png"
+      },
+      "job_title": "Architect",
+      "job_type": "Full-time",
+      "salary": {
+        "min": 1200,
+        "max": 1800,
+        "currency": "USD",
+        "is_negotiable": false
+      },
+      "location": {
+        "province": "Phnom Penh",
+        "district": "Chroy Changvar"
+      },
+      "description": "Design architectural plans for residential and commercial projects.",
+      "requirements": [
+        "Architecture degree",
+        "5+ years experience",
+        "AutoCAD, Revit proficiency",
+        "Creative design skills"
+      ],
+      "offers": [
+        "Project Bonuses",
+        "Health Insurance",
+        "Professional Memberships",
+        "Creative Freedom"
+      ],
+      "posted_date": "2024-01-13",
+      "application_deadline": "2024-02-26",
+      "vacancy": 2,
+      "experience_level": "Senior",
+      "category": "Architecture / Design"
+    },
+    {
+      "id": 22,
+      "company": {
+        "name": "NagaWorld",
+        "logo": "/images/logos/nagaworld.png"
+      },
+      "job_title": "Hotel Receptionist",
+      "job_type": "Full-time",
+      "salary": {
+        "min": 400,
+        "max": 600,
+        "currency": "USD",
+        "is_negotiable": false
+      },
+      "location": {
+        "province": "Phnom Penh",
+        "district": "Tonle Bassac"
+      },
+      "description": "Handle guest check-in/out, reservations, and provide excellent customer service.",
+      "requirements": [
+        "Hotel experience preferred",
+        "Excellent English",
+        "Computer literacy",
+        "Professional appearance"
+      ],
+      "offers": [
+        "Service Charge",
+        "Meals Provided",
+        "Uniform",
+        "Career Progression"
+      ],
+      "posted_date": "2024-01-15",
+      "application_deadline": "2024-02-22",
+      "vacancy": 5,
+      "experience_level": "Entry-Level",
+      "category": "Hospitality"
+    },
+    {
+      "id": 23,
+      "company": {
+        "name": "Mango Byte Technology",
+        "logo": "/images/logos/mango-byte.png"
+      },
+      "job_title": "UI/UX Designer",
+      "job_type": "Full-time",
+      "salary": {
+        "min": 900,
+        "max": 1400,
+        "currency": "USD",
+        "is_negotiable": true
+      },
+      "location": {
+        "province": "Phnom Penh",
+        "district": "Toul Kork"
+      },
+      "description": "Design user interfaces and experiences for web and mobile applications.",
+      "requirements": [
+        "2+ years UI/UX experience",
+        "Figma/Adobe XD proficiency",
+        "Portfolio required",
+        "User research skills"
+      ],
+      "offers": [
+        "Creative Environment",
+        "Flexible Hours",
+        "Learning Budget",
+        "Project Bonuses"
+      ],
+      "posted_date": "2024-01-14",
+      "application_deadline": "2024-02-18",
+      "vacancy": 2,
+      "experience_level": "Mid-Level",
+      "category": "Design / Creative"
+    },
+    {
+      "id": 24,
+      "company": {
+        "name": "RMA Cambodia",
+        "logo": "/images/logos/rma.png"
+      },
+      "job_title": "Automotive Technician",
+      "job_type": "Full-time",
+      "salary": {
+        "min": 500,
+        "max": 800,
+        "currency": "USD",
+        "is_negotiable": false
+      },
+      "location": {
+        "province": "Phnom Penh",
+        "district": "Prampi Makara"
+      },
+      "description": "Repair and maintain vehicles, diagnose mechanical issues.",
+      "requirements": [
+        "Automotive technical training",
+        "2+ years experience",
+        "Diagnostic tool knowledge",
+        "Mechanical aptitude"
+      ],
+      "offers": [
+        "Technical Training",
+        "Tools Provided",
+        "Overtime Available",
+        "Stable Career"
+      ],
+      "posted_date": "2024-01-16",
+      "application_deadline": "2024-02-25",
+      "vacancy": 3,
+      "experience_level": "Mid-Level",
+      "category": "Automotive / Technical"
+    },
+    {
+      "id": 25,
+      "company": {
+        "name": "DFDL Legal & Tax",
+        "logo": "/images/logos/dfdl.png"
+      },
+      "job_title": "Legal Associate",
+      "job_type": "Full-time",
+      "salary": {
+        "min": 1600,
+        "max": 2400,
+        "currency": "USD",
+        "is_negotiable": false
+      },
+      "location": {
+        "province": "Phnom Penh",
+        "district": "Daun Penh"
+      },
+      "description": "Provide legal counsel, draft documents, handle corporate legal matters.",
+      "requirements": [
+        "Law degree and license",
+        "3+ years legal experience",
+        "Excellent English",
+        "Corporate law knowledge"
+      ],
+      "offers": [
+        "High Salary Package",
+        "Professional Development",
+        "International Clients",
+        "Health Insurance"
+      ],
+      "posted_date": "2024-01-13",
+      "application_deadline": "2024-02-27",
+      "vacancy": 1,
+      "experience_level": "Senior",
+      "category": "Legal / Professional Services"
+    }
+  ]

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Your Job</title>
     <link rel="stylesheet" href="/html.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
@@ -12,6 +12,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
     <!-- Header -->
@@ -27,12 +28,17 @@
             <button type="button" class="btn-close " data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-center align-items-center gap-3 flex-grow-1 pe-3">
+            <ul id="navbar-menu" class="navbar-nav justify-content-center align-items-center gap-3 flex-grow-1 pe-3 ">
               <li class="nav-item fs-5"><a class="nav-link"  href="#">Home</a></li>
               <li class="nav-item fs-5"><a class="nav-link" href="#">Job</a></li>
               <li class="nav-item fs-5"><a class="nav-link" href="#">Company</a></li>
               <li class="nav-item fs-5"><a class="nav-link" href="#">Contact</a></li>
             </ul>
+            <div id="btn-login " class="navbar-nav justify-content-center align-items-center me-5">
+                <button id="login" class="btn btn-primary ms-5  rounded-circle d-flex justify-content-center align-items-center position-fixed "><i class="fa-solid fa-user"></i></button>
+                <h3>Hi! </h3>
+                <!-- <h3 id="User-Name"></h3> -->
+            </div>
           </div>
         </div>
       </div>
@@ -40,14 +46,14 @@
     <!-- Autoplaying carousels -->
      <div id="carouselExampleAutoplaying" class="carousel slide mt-5   justify-content-center" data-bs-ride="carousel">
           <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="https://i.pinimg.com/736x/d9/28/52/d928528f24374fd1ed556d4944507fb2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-item active w-100">
+              <img class="object-fit-cover" src="https://i.pinimg.com/736x/d9/28/52/d928528f24374fd1ed556d4944507fb2.jpg" class="d-block w-100" alt="...">
             </div>
-            <div class="carousel-item">
-              <img src="https://i.pinimg.com/736x/7a/24/1f/7a241f221f134f83fe0ddb1dd75d6465.jpg" class="d-block w-100" alt="">
+            <div class="carousel-item w-100">
+              <img class="object-fit-cover " src="https://i.pinimg.com/736x/7a/24/1f/7a241f221f134f83fe0ddb1dd75d6465.jpg" class="d-block w-100" alt="">
             </div>
-            <div class="carousel-item">
-              <img src="https://i.pinimg.com/1200x/13/89/19/13891981480b2eb2da4e1b037bc8ea72.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-item w-100">
+              <img class="object-fit-cover  " src="https://i.pinimg.com/1200x/13/89/19/13891981480b2eb2da4e1b037bc8ea72.jpg" class="d-block w-100" alt="...">
             </div>
           </div>
           <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -123,10 +129,16 @@
                 <div>
               </div>
         </div>
-
     </div>
-  </body>
 
+    <!-- Companies And jobs offer -->
+    <h1 class="text-center mt-5 fs-1 fw-bolder">Companies and Jobs</h1>
+    <div id="job-show" class="w-100 mt-5 h-auto row g-1 mx-1 align-content-center align-items-center justify-content-center ">
+    </div>
+        
+        
+</div>
+  </body>
   <script src="/html.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </html>
