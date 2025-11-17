@@ -16,11 +16,11 @@ const DisplayJob = (jobsArray) => {
     
     jobsArray.forEach((Work) => {
         show += `<div class="Companies-and-Jobs col-12 col-sm-5 col-lg-5 mx-1 rounded-3">
-            <div class="job-box">
-              <div class="d-flex">
-                    <img src="${Work.logo}" width="60" height="60" class="rounded me-3 object-fit-cover" alt="Company-logo">
-                  <h2 class="mt-3 ms-2 fw-bolder company-name">${Work.company.name}</h2>
-              </div>
+                    <div class="job-box">
+                        <div class="d-flex">
+                        <img src="${Work.company.logo}"  class=" logo-img rounded me-3 ms-3 mt-1 object-fit-cover" alt="Company-logo">
+                        <h2 class="mt-3 ms-2 fw-bolder company-name fs-4">${Work.company.name}</h2>
+                    </div>
                 <div class="job-content mt-3 ms-2 py-0 my-0">
                     <h5>Job: ${Work.job_title}</h5>
                     <h5>Salary: ${Work.salary.min} ${Work.salary.currency} to ${Work.salary.max} ${Work.salary.currency}</h5>
