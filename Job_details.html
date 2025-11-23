@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Details - Your Job</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/html.html">
+    <link rel="stylesheet" href="/html.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <style>
+        .job-details-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-top: 30px;
+        }
+        .back-button {
+            margin-top: 5px;
+            background-color: rgb(77, 77, 220);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+        .back-button:hover {
+            background-color: #0400ff;
+        }
+        .apply-button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: 600;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        .apply-button:hover {
+            background-color: #2980b9;
+        }
+        .logo-img {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+        }
+        .requirements-list {
+            padding-left: 20px;
+        }
+        .requirements-list li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top" style="background: linear-gradient(135deg, var(--primary-600) 0%, var(--secondary-600) 100%);">
+    <div class="container-fluid">
+        <a class="navbar-brand fw-bold fs-2 text-white" href="#">YOUR JOB</a>
+        
+        <!-- Search Bar - Visible on desktop -->
+        <div class="d-none d-lg-block me-4 flex-grow-1" style="max-width: 400px;">
+            <input type="text" id="job-search" placeholder="Search Jobs or Companies" 
+                   class="form-control rounded-pill px-3">
+        </div>
+
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" 
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" 
+             aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header" style="background: linear-gradient(135deg, var(--primary-600) 0%, var(--secondary-600) 100%);">
+                <h5 class="offcanvas-title fw-bold fs-2 text-white" id="offcanvasNavbarLabel">YOUR JOB</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" 
+                        aria-label="Close"></button>
+            </div>
+
+            <div class="offcanvas-body">
+                <!-- Search Bar - Visible in mobile offcanvas -->
+                <div class="d-lg-none mb-4">
+                    <input type="text" id="job-search-mobile" placeholder="Search Jobs or Companies" 
+                           class="form-control rounded-pill px-3">
+                </div>
+
+                <ul class="navbar-nav justify-content-center align-items-lg-center flex-grow-1 gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 text-dark fw-semibold" href="/html.html#">
+                            <i class="fas fa-home me-2"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 text-dark fw-semibold" href="/html.html#job">
+                            <i class="fas fa-briefcase me-2"></i>Jobs
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 text-dark fw-semibold" href="/html.html#company">
+                            <i class="fas fa-building me-2"></i>Companies
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 text-dark fw-semibold" href="#">
+                            <i class="fas fa-envelope me-2"></i>Contact
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Login Button -->
+                <div class="d-flex align-items-center gap-3 mt-3 mt-lg-0">
+                    <button id="login" class="btn btn-success rounded-pill px-4 py-2">
+                        <i class="fa-solid fa-circle-user me-2"></i>
+                        <span class="d-none d-sm-inline">Sign In</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <div class="container">
+        <button class="back-button" onclick="window.history.back()">← Back to Jobs</button>
+        <div id="job-details" class="job-details-container">
+        </div>
+    </div>
+
+    <script>
+        // Function to display job details
+        function displayJobDetails(job) {
+            let html = `
+                <div class="d-flex align-items-start mb-4">
+                    <img src="${job.company.logo}" class="logo-img rounded me-4" alt="Company logo">
+                    <div>
+                        <h1 class="text-primary mb-1">${job.company.name}</h1>
+                        <h2 class="mb-3">${job.job_title}</h2>
+                        <p class="text-success fs-5 mb-2">${job.salary.min} - ${job.salary.max} ${job.salary.currency}</p>
+                        <p class="text-muted mb-3"><i class="fas fa-map-marker-alt"></i> ${job.location.district}, ${job.location.province}</p>
+                    </div>
+                </div>
+                
+                <div class="mb-4">
+                    <h4 class="mb-3">Job Description</h4>
+                    <p>${job.description}</p>
+                </div>
+                
+                <div class="mb-4">
+                    <h4 class="mb-3">Requirements</h4>
+                    <ul class="requirements-list">
+                        ${job.requirements.map(req => `<li>${req}</li>`).join('')}
+                    </ul>
+                </div>
+                
+                <div class="d-flex flex-wrap gap-3 mb-4">
+                    <span class="badge bg-primary fs-6 p-2">${job.job_type}</span>
+                    <span class="badge bg-secondary fs-6 p-2">${job.experience_level}</span>
+                    <span class="badge bg-info fs-6 p-2">${job.category}</span>
+                </div>
+                
+                <button id="apply-btn" class="apply-button w-100">Apply Now</button>
+            `;
+            
+            document.getElementById('job-details').innerHTML = html;
+        }
+
+        // Load job details when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            const jobId = localStorage.getItem('selectedJobId');
+            
+            if (jobId !== null) {
+                // Fetch the job data
+                fetch("https://sour-sokheng.github.io/Work/job.json")
+                    .then(res => res.json())
+                    .then(data => {
+                        const job = data[jobId];
+                        displayJobDetails(job);
+                    })
+                    .catch(err => console.log(err));
+            } else {
+                document.getElementById('job-details').innerHTML = '<p>Job not found. Please go back and select a job.</p>';
+            }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="/html.js"></script>
+</body>
+</html>

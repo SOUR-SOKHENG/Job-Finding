@@ -1,0 +1,54 @@
+   <!-- <script>
+        // Global variable to store jobs data
+        let jobs = [];
+
+        // Fetch job data
+        fetch("https://sour-sokheng.github.io/Work/job.json")
+            .then(res => res.json())
+            .then(data => {
+                jobs = data;
+                console.log("Fetched data:", jobs);
+                displayJobListings(jobs);
+            })
+            .catch(err => console.log(err));
+
+        // Function to display job listings
+        function displayJobListings(jobsArray) {
+            let html = '';
+            
+            jobsArray.forEach((job, index) => {
+                html += `
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="job-card p-3" data-job-id="${index}">
+                        <div class="d-flex align-items-start">
+                            <img src="${job.company.logo}" class="logo-img rounded me-3" alt="Company logo">
+                            <div>
+                                <h3 class="company-name fs-5 mb-1">${job.company.name}</h3> -->
+    <!-- //                             <h4 class="job-title fs-6 mb-2">${job.job_title}</h4>
+    //                             <p class="salary mb-1">${job.salary.min} - ${job.salary.max} ${job.salary.currency}</p>
+    //                             <p class="text-muted small mb-2">${job.location.district}, ${job.location.province}</p>
+    //                             <div class="d-flex flex-wrap gap-2 mt-2">
+    //                                 <span class="badge bg-primary">${job.job_type}</span>
+    //                                 <span class="badge bg-secondary">${job.experience_level}</span>
+    //                                 <span class="badge bg-info">${job.category}</span>
+    //                             </div>
+    //                         </div>
+    //                     </div>
+    //                 </div>
+    //             </div>`;
+    //         });
+            
+    //         document.getElementById('job-show').innerHTML = html;
+            
+    //         // Add click event listeners to job cards
+    //         document.querySelectorAll('.job-card').forEach(card => {
+    //             card.addEventListener('click', function() {
+    //                 const jobId = this.getAttribute('data-job-id');
+    //                 // Store the job ID in localStorage to use on details page
+    //                 localStorage.setItem('selectedJobId', jobId);
+    //                 // Navigate to job details page
+    //                 window.location.href = '/Job_details.html';
+    //             });
+    //         });
+    //     }
+    // </script> -->
